@@ -1,3 +1,5 @@
+loadstring(game:GetObjects("rbxassetid://5209815302")[1].Source)()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Reanimation.lua"))()
 
 print([[
 --Hokuto Shinken (Divine Fist of the North Star)--
@@ -30,8 +32,6 @@ Z - Tell those you've struck that
 they're already dead
 ]])
 
-loadstring(game:GetObjects("rbxassetid://5209815302")[1].Source)()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Reanimation.lua"))()
 player = game.Players.LocalPlayer
 mouse = player:GetMouse()
 chara = player.Character

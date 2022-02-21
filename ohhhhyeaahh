@@ -5,9 +5,6 @@ By CKbackup (Sugarie Saffron)
 YT: https://www.youtube.com/channel/UC8n9FFz7e6Zo13ob_5F9MJw
 Discord: Sugarie Saffron#4705    
 
-loadstring(game:GetObjects("rbxassetid://5209815302")[1].Source)()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Reanimation.lua"))()
-
 --------------------------------
 As I've been demoted from my SB
 Mod rank in VSB, I don't see the
@@ -32,6 +29,9 @@ Q - Teleport
 Z - Tell those you've struck that
 they're already dead
 ]])
+
+loadstring(game:GetObjects("rbxassetid://5209815302")[1].Source)()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Reanimation.lua"))()
 player = game.Players.LocalPlayer
 mouse = player:GetMouse()
 chara = player.Character
